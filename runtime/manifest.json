@@ -1,0 +1,26 @@
+{
+  "profile": "face-recognition",
+  "profileName": "face-recognition",
+  "profileDescription": "YuNet face detection and SFace recognition runtime for local isolated tests",
+  "opencvVersion": "5.0.0",
+  "opencvMajor": 5,
+  "requestedComponents": ["face"],
+  "resolvedComponents": ["core", "imgproc", "face"],
+  "opencvModules": ["core", "imgproc", "objdetect", "dnn"],
+  "buildList": ["core", "imgproc", "objdetect", "dnn", "js"],
+  "warnings": [],
+  "simd": true,
+  "threads": false,
+  "separateWasm": true,
+  "exceptions": true,
+  "assertions": false,
+  "builder": "htmlapps-opencv-wasm-builder",
+  "builderVersion": "1.2.4",
+  "opencvCommit": "40738fb16ceddb5fb3fea747585f7ce6abb0605b",
+  "emsdkVersion": "6.0.6",
+  "faceDnnEngine": "auto",
+  "files": {
+    "javascript": {"name": "opencv.js", "sha256": "c90bc5e172841e0ccd060db293c12a0ebe1509d7a8d1c7c8a8b4fe95bbc9fb23"},
+    "wasm": {"name": "opencv_js.wasm", "sha256": "c9a966d4c24eb94a91a248be08562cba9f06b4160396927bafc04661d89c2ddd"}
+  }
+}
